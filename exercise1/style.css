@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@100;200;300&display=swap');
+
+* {
+	font-family: 'Fira Code', monospace; 
+  font-family: 'Montserrat', sans-serif;
+	margin: 0;  
+	padding: 0;
+  text-align: center;
+} 
+
+body {
+  font-family: 'Fira Code', monospace; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+ h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fira Code', monospace; 
+  font-family: 'Montserrat', sans-serif;
+    
+}
+ 
+.content {
+    max-width:1600px;
+}
+
+.container {
+    text-align: center; 
+    padding: 200px; 
+    background-color: white;
+    margin: 0;
+    max-height: 600px;
+}
+
+.large {
+    text-align: center;
+    font-size: 100px;
+}
+
+.image{
+    max-width: 1400px;
+    max-height: 1400px;
+}
+
+
+.display-container {
+    padding-bottom: 30%;
+
+
+
+}
+
+
+/*  navigation bar */
+.topnav {
+
+    
+    position: relative;
+    margin-top: auto;
+    background-color: black;
+    border-radius: 0px;
+    background: white;
+    box-shadow:  26px 26px 53px #211f21,
+                -26px -26px 53px white;
+    transition: top 0.5s;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    color: black;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-radius: 19px;
+    background: linear-gradient(145deg, #eb5151, #c64444);
+    box-shadow:  29px 29px 37px #581e1e,
+                -29px -29px 37px #ff7a7a;
+    color: white;
+    
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    
+    color: white;
+    border-radius: 19px;
+    background: linear-gradient(145deg, #eb5151, #c64444);
+    box-shadow:  29px 29px 37px #581e1e,
+                -29px -29px 37px #ff7a7a;
+    
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+   
+
+  }
+
+  .placeholder {
+
+    margin: 0 auto;
+    width: 50vh;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 27px;
+    background: linear-gradient(145deg, #ff2828, #d72121);
+    box-shadow:  29px 29px 0px #600f0f,
+                -29px -29px 0px #ff3b3b;
+}
+
+.placeholder:hover {
+    background-color: white;
+    color: rgb(248, 238, 238);
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+      color: white;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+/* **************************************************************** */
+
+
+
+
+  .container2 {
+    text-align: center; 
+    text-emphasis-color: white;
+    padding: 200px; 
+    background-color: white;
+    margin: 0;
+    max-height: 100px;
+}
+
+  h1{
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+  .blog-card-blog {
+      margin-top: 30px;
+      margin-top: 150px;
+  }
+  .blog-card {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      margin-bottom: 90px;
+      border-radius: 6px;
+      color: rgba(0, 0, 0, 0.87);
+      background: #fff;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .blog-card .blog-card-image {
+      height: 90%;
+      position: relative;
+      overflow: hidden;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: -30px;
+      border-radius: 6px;
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .blog-card-image img {
+      width: 90%;
+      height: 80%;
+      border-radius: 6px;
+      pointer-events: none;
+  }
+  .blog-card .blog-table {
+      padding: 15px 30px;
+  }
+  .blog-table {
+      margin-bottom: 0px;
+  }
+  .blog-category {
+      position: relative;
+      line-height: 0;
+      margin: 15px 0;
+  }
+  .blog-text-success {
+      color: #28a745!important;
+  }
+  .blog-card-blog .blog-card-caption {
+      margin-top: 50px;
+  }
+ 
+  .blog-card-caption, .blog-card-caption a {
+      color: #333;
+      text-decoration: none;
+  }
+  
+  p {
+     color: #3C4857;
+      margin-top: 0;
+      margin-bottom: 1rem;
+  }
+  .blog-card .ftr {
+      margin-top: 15px;
+  }
+  .blog-card .ftr .author {
+      color: #888;
+  }
+  
+  .blog-card .ftr div {
+      display: inline-block;
+  }
+  .blog-card .author .avatar {
+      width: 36px;
+      height: 36px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 5px;
+  }
+  .blog-card .ftr .stats {
+      position: relative;
+      top: 1px;
+      font-size: 14px;
+  }
+  .blog-card .ftr .stats {
+      float: right;
+      line-height: 30px;
+  }
+
+
+
+
+
+
+  /* **************************************************************** */
+
+  
