@@ -2,50 +2,48 @@
 
 * {
 	font-family: 'Fira Code', monospace; 
-  font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 	margin: 0;  
 	padding: 0;
-  text-align: center;
+        text-align: center;
 } 
 
 body {
-  font-family: 'Fira Code', monospace; 
-  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Fira Code', monospace; 
+	  font-family: 'Montserrat', sans-serif;
 }
 
  h1,h2,h3,h4,h5,h6 {
-  font-family: 'Fira Code', monospace; 
-  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Fira Code', monospace; 
+	  font-family: 'Montserrat', sans-serif;
     
 }
  
 .content {
-    max-width:1600px;
+	    max-width:1600px;
 }
 
 .container {
-    text-align: center; 
-    padding: 200px; 
-    background-color: white;
-    margin: 0;
-    max-height: 600px;
+	    text-align: center; 
+	    padding: 200px; 
+	    background-color: white;
+	    margin: 0;
+	    max-height: 600px;
 }
 
 .large {
-    text-align: center;
-    font-size: 100px;
+	    text-align: center;
+	    font-size: 100px;
 }
 
 .image{
-    max-width: 1400px;
-    max-height: 1400px;
+	    max-width: 1400px;
+	    max-height: 1400px;
 }
 
 
 .display-container {
-    padding-bottom: 30%;
-
-
+   	 padding-bottom: 30%;
 
 }
 
@@ -147,8 +145,6 @@ body {
 /* **************************************************************** */
 
 
-
-
   .container2 {
     text-align: center; 
     text-emphasis-color: white;
@@ -247,12 +243,6 @@ body {
       float: right;
       line-height: 30px;
   }
-
-
-
-
-
-
   /* **************************************************************** */
 
   
